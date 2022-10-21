@@ -1,0 +1,47 @@
+.Body {
+    height: 500;
+}
+
+.Heading {
+    background-color: #222;
+    height: 30px;
+    padding: 5px;
+    justify-content : center;
+    align-items : center;
+    flex-direction : row;
+    border-bottom: 1px;
+}
+
+.Heading > .Run {
+    width: auto;
+    height: 25px;
+}
+
+/*  .Title 클래스 안에 있는 Label에 적용 */
+.Heading > Label {
+    -unity-text-align: middle-left;
+    color: #ffffff;
+    flex: 1;
+}
+
+
+.BodyElement{
+    width : auto;
+    height: auto;
+    flex: 1;
+}
+
+.TestItemBox {
+    padding: 2px 4px;
+}
+
+.Footer {
+    background-color: #222;
+    height: 20px;
+    flex-direction : row;
+}
+
+.Footer .Summary {
+    -unity-text-align: middle-left;
+    margin-left: 5px;
+}

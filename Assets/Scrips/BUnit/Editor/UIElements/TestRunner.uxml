@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+>
+    <engine:VisualElement class="Body">
+        <engine:VisualElement class="Heading">
+            <engine:Label class="Title" text="BUnit"/>
+            <engine:Button class="Run" text="RUN"/>
+        </engine:VisualElement>
+    
+        <engine:VisualElement class="BodyElement">
+            <engine:ScrollView class="TestItemBox"/>
+        </engine:VisualElement>
+    
+        <engine:VisualElement class="Footer">
+            <engine:Label class="Summary" text=""/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

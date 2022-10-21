@@ -1,0 +1,6 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement class="TestItem">
+        <Label class="Result" text="OK"/>
+        <Label class="Method" text="TestSuite::Method"/>
+    </VisualElement>
+</UXML>
