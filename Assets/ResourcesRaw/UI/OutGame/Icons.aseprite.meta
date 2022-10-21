@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 37e6d68d016714958b5be592cad83201
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: d1956ce1ff810451f9738b29e9df561a, type: 3}
+  settings:
+    importType: 1
+    pixelsPerUnit: 16
+    spriteAlignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    bindType: 1
+    animType: 0
+    baseAnimator: {instanceID: 0}
+    buildAtlas: 0
+    fitSize: 0
+    tileSize: {x: 16, y: 16}
+    tileNameType: 0
+    tileEmpty: 0
+    expandEdge: 1
+    margin: 1
+    padding: 0

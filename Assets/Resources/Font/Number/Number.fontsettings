@@ -6,7 +6,7 @@ Font:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: sn
+  m_Name: Number
   serializedVersion: 5
   m_LineSpacing: 5
   m_DefaultMaterial: {fileID: 6269827959179494}
