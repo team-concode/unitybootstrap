@@ -18,7 +18,7 @@ public class Bec {
         return CanEnter(name, defaultThreshold);
     }
 
-    public bool CanEnter(string name, float threshold, string fx = "click") {
+    public bool CanEnter(string name, float threshold, string fx = "Fx/Click") {
         if (denyAll) {
             return false;
         }

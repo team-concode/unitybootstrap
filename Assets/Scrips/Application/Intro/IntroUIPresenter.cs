@@ -50,7 +50,7 @@ public class IntroUIPresenter : UIPresenterBase {
         if (!logoDisplayed) {
             await new WaitForSeconds(0.1f);
             logo.CrossFade("Play", 0, -1, 0f);
-            soundService.PlayFx("Fx/points");
+            soundService.PlayFx("Fx/Points");
             
             await new WaitForSeconds(1f);
             logoDisplayed = true;

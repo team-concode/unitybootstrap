@@ -1,0 +1,126 @@
+key	ko	en	ja	ru	fr	zh-hant	es	de	th	id	vi	pt
+korean.ee	이											
+korean.ga	가											
+korean.eul	을											
+korean.reul	를											
+korean.ro	로											
+korean.euro	으로											
+common.version	버전	Version	バージョン	Версия	Version	版本	Versión	Version	เวอร์ชั่น	Versi	Phiên bản	Versão
+common.days	일	day(s) 	日	Д.	Jours	日	Días	Tage	วัน	Hari	Ngày	d
+common.hours	시간	hour(s)	時間	Ч.	Heures	時間	Horas	Stunden	ชั่วโมง	Jam	Giờ	h
+common.minutes	분	min(s)	分	М.	Minutes	分鐘	Minutos	Minuten	นาที	Menit	Phút	min
+common.sec	초	sec(s)	秒	С.	Sec	秒鐘	Segundos	Sec	วินาที	Detik	Giây	s
+common.ok	확인	OK	確認	ОК	OK	確認	OK	OK	ตกลง	Ok	OK	OK
+common.yes	예	Yes	はい	Да	Oui	是	Sí	Ja	ใช่	Ya	Đúng	Sim
+common.no	아니오	No	いいえ	Нет	Non	不是	No	Nein	ไม่	Tidak	Không	Não
+common.retreat	복귀	Return	帰る	Вернуться	Retour	返回	Regresar	Rückkehr	กลับ	Kembali	Trở lại	Voltar
+common.stay	머물기	Stay	取消	Остаться	Rester	留下	Quedarse	Bleib	อยู่	Tinggal	Ở lại	Ficar
+common.recipe	레시피	Recipe	レシピ	Рецепт	Recette	配方	Receta	Rezept	สูตรอาหาร	Resep	Công thức	Receita
+common.craft	제작	Craft	製作	Создать	Fabrication	製作	Fabricación	Herstellen	สร้าง	Penyusun	Thủ công	Construir
+common.etc	기타	Others	その他	Прочее	Autre	其他	Otro	Andere	อื่น	Lainnya	Khác	Outros
+common.coin	코인	Coin	コイン									Moeda
+menu.setting	설정	Settings	設定	Настройки	Réglages	設置	Ajuste	Einstellung	การตั้งค่า	Pengaturan	Thiết lập	Configurações
+menu.emergency.exit	비상탈출	Emergency Escape	非常脱出	Экстренный Побег	Évacuation d'urgence	緊急避難	Salida de emergencia	Notfall-Flucht	ทางหนีฉุกเฉิน	Pelarian Darurat	Thoát hiểm khẩn cấp	Saída de Emergência
+menu.backup	데이터 백업	Save Data (Backup)	データ保存	Сохранить Игру	Sauvegarder la partie	保存	Respaldar datos	Backup Daten sichern	สำรองข้อมูลบันทึกข้อมูล	Cadangkan Penyimpanan Data	Sao lưu Dữ liệu đã lưu	Salvar Dados (Backup)
+menu.import	백업 데이터 복구	Import Backup Data	データ復旧	Импортировать Данные Бэкапа	Restaurer les données de la sauvegarde	恢复	Importar datos de respaldo	Sicherungsdaten importieren	นำเข้าข้อมูลสำรอง	Impor Data Cadangan	Nhập dữ liệu sao lưu	Importar Dados de Backup
+menu.about	게임 정보	About	ゲーム情報	Об Игре	À propos	遊戲信息	Acerca de	Über uns	เกี่ยวกับ	Tentang	Giới thiệu	Sobre
+menu.beta.tester	기프트 코드	Gift Code	ギフトコード	Подарочный код	Code cadeau	禮品碼	Código de regalo	Geschenkcode	รหัสปัจจุบัน	Kode sekarang	Mã hiện tại	Código de Brinde
+menu.play.history	플레이 기록	Play History	プレイ記録	Играть в Историю	Historique du jeu	遊玩記錄	Historial de juego	Spielverlauf	ประวัติการเล่น	Mainkan Riwayat	Lịch sử chơi	Histórico
+common.caution	주의	Warning	注意	Внимание	Avertissement	注意	Precaución	Warnung	คำเตือน	Peringatan	Cẩn trọng	Atenção
+hero.back.dialog	나쁜 꿈을 꾼것만 같다옹..	It feels like I had a bad dream...	悪い夢を見たにゃん…	Кажется, что мне приснился плохой сон...	J’ai dû faire un mauvais rêve...	好像做了不好的夢喵	Se siente como si hubiera tenido un mal sueño...	Es fühlt sich an, als hätte ich schlecht geträumt...	รู้สึกเหมือนว่าฉันจะฝันร้าย...	Rasanya seperti aku bermimpi buruk...	Cảm giác như vừa mơ một cơn ác mộng ...	Acho que tive um pesadelo...
+hero.pickaxe.lv.up	이 곡괭이로는 힘들것 같다옹	It seems that it will be difficult with this pickaxe.	このツルハシでは無理みたいにゃ	Похоже, что добыть это будет сложно с данной киркой	Ça va être compliqué avec une telle pioche…	用這把鋤頭感覺有點困難喵…	Será difícil con este pico.	Es scheint, dass es mit dieser Spitzhacke schwierig wird.	ดูเหมือนว่ามันยากที่จะใช้เสียมอันนี้	Sepertinya akan sulit dengan kapak ini.	Có vẻ như chiếc cuốc này sẽ rất khó dùng.	Parece que vai ser difícil com esta picareta.
+btn.equip	착용	Equip	着用	Экипировать	Équiper	穿上	Equipar	Ausrüsten	อุปกรณ์	Lengkapi	Trang bị	Equipar
+btn.detach	탈착	Discard	外す	Снять	Retirer	脫下	Quitar	Ablegen	ปลด	Buang	Tháo ra	Retirar
+btn.close	닫기	Close	閉じる	Закрыть	Fermer	關閉	Cerrar	Schließen	ปิด	Tutup	Đóng	Fechar
+btn.cancel	취소	Cancel	キャンセル	Отмена	Annuler	取消	Cancelar	Abbrechen	ยกเลิก	Batalkan	Huỷ	Cancelar
+btn.select	선택	Select	選択	Выбор	Sélectionner	選擇	Seleccionar	Wähle	เลือก	Pilih	Lựa chọn	Selecionar
+btn.open	열기	Open	開く	Открыть	Ouvrir	打開	Abrir	Öffnen	เปิด	Buka	Mở	Abrir
+btn.trash	버리기	Trash	捨てる	В Мусор	Jeter	丟掉	Tirar	Papierkorb	ขยะ	Sampah	Rác	Descartar
+btn.retry	재시도	Retry	やり直し	Повторить	Réessayer	重玩	Reintentar	Wiederholen	ลองอีกครั้ง	Coba lagi	Thử lại	Tentar de novo
+talk.menu.done	닫기	Close	閉じる	Закрыть	Fermer	關閉	Cerrar	Schließen	ปิด	Tutup	Đóng	Fechar
+												
+enter.area.error.Locked	나가는 길은 잠긴것 같다.	The exit seems to be locked.	出口はロックされているようだ。	Похоже, что выход закрыт.	La sortie a l’air d’être bloquée.	出去的路好像被鎖住了。	La salida parece estar bloqueada.	Der Ausgang scheint verschlossen zu sein.	ดูเหมือนว่าทางออกจะถูกล็อค	Pintu keluar sepertinya terkunci.	Có vẻ lối ra bị khóa.	Parece que a saída está bloqueada.
+enter.area.error.ClearEnemyFirst	모든 적들을 제거해야 열리는것 같다.	It seems to open only when all enemies have been defeated.	すべての敵を倒さなければ開かないようだ。	Похоже, что проход будет открыт, когда все враги будут побеждены.	Il faut peut-être éliminer tous les ennemis pour l’ouvrir.	似乎要除掉所有敵人才能打開。	Parece que se abre solo cuando todos los enemigos han sido derrotados.	Er scheint sich nur zu öffnen, wenn alle Feinde besiegt wurden.	ดูเหมือนว่าจะเปิดก็ต่อเมื่อศัตรูทั้งหมดพ่ายแพ้	Sepertinya terbuka hanya ketika semua musuh telah dikalahkan.	Có vẻ nó chỉ mở khi tất cả kẻ thù đã bị đánh bại.	Deve abrir quando todos os inimigos forem derrotados.
+enter.area.error.NeedKey	문을 열려면 {0} 필요 한것 같다.	It seems like {0} is required to open the door.	門を開くためには、{0}が必要らしい。	Похоже, что для открытия двери нужен {0}	Pour ouvrir la porte, il faut {0}.	好像需要{0}才能打開門。	Parece que se requiere {0} para abrir la puerta.	Es scheint, als ob {0} erforderlich ist, um die Tür zu öffnen.	ดูเหมือนว่าต้องใช้ {0} เพื่อเปิดประตู	Sepertinya {0} diperlukan untuk membuka pintu.	Có vẻ như cần có {0} để mở cửa.	Parece que é preciso um(a) {0} para abrir a porta.
+												
+menu.close	닫기	Close	閉じる	Закрыть	Fermer	關閉	Cerrar	Schließen	ปิด	Tutup	Đóng	Fechar
+menu.exit	나가기	Exit	出る	Выход	Sortir	出口	Salida	Ausgang	ทางออก	Keluar	Lối ra	Sair
+menu.lobby	모드 변경	Change Mode	モード変更	Изменить режим	Changer de Mode	改變模式	Modo de cambio	Modus ändern	เปลี่ยนโหมด	Ubah Mode	Thay đổi chế độ	Alterar Modo
+need.key.to.open	상자가 잠겨있습니다. 「{0}」가 필요합니다.	The chest is locked. Get the 「{0}」 to open.	箱がロックされています。 「{0}」が必要です。	Сундук закрыт. Требуется 「{0}」	Le coffre est fermé. Nous avons besoin de 「{0}」.	盒子被鎖住了。需要「{0}」。	La caja está cerrada. Se requiere 「{0}」.	Die Truhe ist verschlossen. A(n) 「{0}」 wird benötigt.	หีบถูกล็อค ต้องใช้ 「{0}」	Kotak terkunci. A(n) 「{0}」diperlukan.	Rương bị khóa. Cần phải có một 「{0}」.	O baú está trancado. Obtenha a 「{0}」 para abrir.
+no.empty.slot	빈 슬롯이 없습니다.	There is no empty slot.	空きスロットがありません。	Нет доступных слотов.	Aucun emplacement disponible.	沒有足夠的空間。	No hay ranura vacía.	Es gibt keinen leeren Slot.	ไม่มีช่องว่าง	Tidak ada slot kosong.	Không có chỗ trống.	Não há espaço vazio.
+												
+lang.en	영어	English	English	Английский	Anglais	英文	Inglés	Englisch	อังกฤษ	Inggris	Tiếng Anh	Inglês
+lang.ko	한국어	한국어	한국어	Корейский	Coréen	韓文	Coreano	Koreanisch	เกาหลี	Korea	Tiếng Hàn	Coreano
+lang.ja	일본어	日本語	日本語	Японский	Japonais	日文	Japonés	Japanisch	ญี่ปุ่น	Jepang	Tiếng Nhật	Japonês
+lang.ru	러시아어	Русский	Русский	Русский	Russe	俄語	Ruso	Russisch	รัสเซีย	Rusia	Tiếng Nga	Russo
+lang.fr	프랑스어	Français	Français	Французский	Français	法語	Francés	Französisch	ภาษาฝรั่งเศส	Perancis	Tiếng Pháp	Francês
+lang.es	스페인어	Español	Español	испанский язык	Espagnol	西班牙語	Español	Spanisch	สเปน	Spanyol	Tiếng Tây Ban Nha	Espanhol
+lang.zh-hant	중국어 번체	繁體中文	繁體中文	Традиционный китайский	Chinois Traditionnel	繁體中文	Chino tradicional	Traditionelles Chinesisch	จีนดั้งเดิม	Cina tradisional	Tiếng Trung phồn thể	Chinês tradicional
+lang.de	독일어	Deutsch	Deutsch	Немецкий	Allemand	德語	Alemán	Deutsch	เยอรมัน	Jerman	Tiếng Đức	Alemão
+lang.it	이탈리아어	Italiano	Italiano	Итальянский	Italien	意大利語	Italiano	Italienisch	อิตาลี	Italia	Tiếng Ý	Italiano
+lang.th	태국어	ภาษาไทย	ภาษาไทย	Тайский	Thaïlandais	泰國	Tailandés	Thai	ไทย	Thailand	Tiếng Thái	Tailandês
+lang.id	인도네시아어	bahasa Indonesia	bahasa Indonesia	индонезийский	Indonésien	印度尼西亞	Indonesio	Indonesisch	อินโดนีเซีย	Indonesia	Tiếng Indonesia	Indonésio
+lang.pt	포르투갈어	Português	Português	португальский	Portugais	葡萄牙語	Portugués	Portugiesisch	โปรตุเกส	Portugis	Tiếng Bồ Đào Nha	Português
+lang.vi	베트남어	Tiếng Việt	Tiếng Việt	вьетнамский	Vietnamien	越南語	Vietnamita	Vietnamesisch	ภาษาเวียดนาม	Vietnam	Tiếng Việt	Vietnamita
+hero.name	치즈	Cheese	チーズ	Персик	Cheese	起司	Cheese	Cheese	ชีส	Cheese	Cheese	Queijito
+hero.prefix	영웅의	Hero's	ヒーローの	Герой	De héros	英雄	de Héroe	Hero's	ของฮีโร่	Pahlawan	Anh hùng	Do herói
+												
+res.type.Material	재료	Material	材料	Материалы	Matériels	材料	Material	Material	วัสดุ	Material	Vật liệu	Material
+res.type.Item	아이템	Item	アイテム	Предметы	Objet	道具	Objeto	Gegenstand	ไอเทม	Item	Vật phẩm	Item
+res.type.Artifact	유물	Artifact	遺物	Артефакты	Artefact	遺物	Reliquia	Artefakt	สิ่งประดิษฐ์	Artefak	Hiện vật	Artefato
+res.type.Pickaxe	곡괭이	Pickaxe	ツルハシ	Кирка	Pioche	鎬頭	Pico	Spitzhacke	เสียม	Kapak	Cuốc chim	Picareta
+res.type.Building	빌딩	Building	建物	Стройка	Immeuble	建造	Edificio	Gebäude	อาคาร	Bangunan	Toà nhà	Construção
+res.type.Skill	스킬	Skill	スキル	Умения	Compétence	技能	Habilidad	Fertigkeit	ทักษะ	Keahlian	Kỹ năng	Habilidade
+res.type.ArtifactSlots	추가 유물 슬롯	Extra Artifact Slot	追加遺物スロット	Доп. Слоты Для Артефактов	Emplacement supplémentaire d’artefact	增加遺物裝備格	Ranura adicional para reliquia	Zusätzlicher Artefakt-Slot	สล็อตสิ่งประดิษฐ์เพิ่มเติม	Slot Artefak Tambahan	Vị trí hiện vật bổ sung	Espaço Extra de Artefato
+												
+land.open.2	무슨일이 일어나는거지!	What's happening?!	何が起きているんだ！	Что происходит?!	Que se passe-t-til ?	發生了什麼事? ！	¿Que está sucediendo?	Was ist hier los?	เกิดอะไรขึ้น?!	Apa yang terjadi?!	Chuyện gì đang xảy ra vậy?!	O que está havendo?!
+land.open.3	이번에도 또!	Again?	また！？	Опять?	Encore ?!	這次也是！	¿De nuevo?	Schon wieder?	อีกแล้วเหรอ?	Lagi?	Lần nữa?	De novo?
+land.open.4	이번이 마지막일까?	Will this be the last?	これが最後か？	Когда все это кончится?	S’agit-il de la dernière étape ?	這是最後一次嗎？	¿Será este el último?	Wird dies das letzte Mal sein?	นี่จะเป็นครั้งสุดท้ายเหรอ?	Apakah ini akan menjadi yang terakhir?	Đây sẽ là lần cuối cùng?	Será que esta é a última?
+												
+oauth.login.Google	Google 로그인	Google Login	Google Login	Вход с Google	Connexion Google	谷歌帳戶登錄	Inicio de sesión de Google	Google-Anmeldung	เข้าสู่ระบบ Google	Masuk Google	Đăng nhập Google	Entrar com Google
+oauth.login.Apple	Apple 로그인	Apple Login	Apple Login	Вход с Apple	Connexion Apple	蘋果帳戶登錄	Inicio de sesión de Apple	Apple-Anmeldung	เข้าสู่ระบบ Apple	Masuk Apple	Đăng nhập Apple	Entrar com Apple
+backup.success	데이터를 백업했습니다.	Backup complete!	データをバックアップしました。	Бэкап завершен!	Sauvegardé !	數據備份了。	Los datos han sido respaldados.	Backup abgeschlossen!	สำรองข้อมูลเสร็จแล้ว!	Pencadangan selesai!	Sao lưu thành công!	Backup concluído!
+backup.failed	데이터 백업 실패	Backup failed	データのバックアップに失敗しました。	Бэкап не удался	Échec de sauvegarde	數據備份失敗	Error de respaldo de datos	Sicherung fehlgeschlagen	การสำรองข้อมูลล้มเหลว	Pencadangan gagal	Sao lưu thất bại	Falha no backup
+import.failed	불러오기 실패	Import failed	読み込みに失敗しました。	Импортирование не удалось	Échec d’importation	加載失敗	Importación fallada	Import fehlgeschlagen	นำเข้าไม่สำเร็จ	Impor gagal	Nhập thất bại	Falha na importação
+backup.failed.missmatching	다른 계정으로 로그인 하셨습니다.	You are logged in with a different account.	別のアカウントでログインしました。	Вы вошли с другим аккаунтом.	Vous êtes connecté(e) avec un autre identifiant.	您已登錄了其他賬戶。	Ha iniciado sesión con una cuenta diferente.	Du bist mit einem anderen Konto eingeloggt.	คุณเข้าสู่ระบบด้วยบัญชีอื่น	Anda masuk dengan akun yang berbeda.	Bạn đã đăng nhập bằng một tài khoản khác.	Você está conectado com uma conta diferente.
+import.alert	서버에 있는 데이터를 불러 오시겠습니까? 기존 기록은 모두 지워집니다.	Do you want to load data from the server? This will erase all existing data.	サーバー上のデータを読み込みますか？ 従来のデータはすべて消去されます。	Вы хотите загрузить данные с сервера? Это сотрет все существующие данные.	Souhaitez-vous d’importer les données du serveur ? Toutes les données actuelles seront supprimées.	是否確實要加載服務器上的數據？所有現有記錄都會被刪除。	¿Quieres cargar datos desde el servidor? Esto borrará todos los datos existentes.	Willst du Daten vom Server laden? Dadurch werden alle vorhandenen Daten gelöscht.	คุณต้องการโหลดข้อมูลจากเซิร์ฟเวอร์หรือไม่? การดำเนินการนี้จะลบข้อมูลที่มีอยู่ทั้งหมด	Apakah Anda ingin memuat data dari server? Ini akan menghapus semua data yang ada.	Bạn có muốn tải dữ liệu từ máy chủ không? Thao tác này sẽ xóa tất cả dữ liệu hiện có.	Deseja carregar dados do servidor? Isso vai apagar todos os dados existentes.
+export.alert	기존에 이계정에 저장된 데이터가 있다면 덮어써집니다. 계속 진행하시겠습니까?	Any data previously stored in this account will be overwritten. Would you like to proceed?	現在のアカウントに保存されているデータがある場合、上書きされます。 続行しますか？	Любые данные, сохраненные на этом аккаунте, будут перезаписаны. Вы хотите продолжить?	Les données sauvegardées sur ce compte vont être remplacées. Vous êtes sûr(e) de continuer ?	如果此帳戶有已保存的數據，將被覆蓋。是否要繼續進行？	Todos los datos almacenados previamente en esta cuenta se sobrescribirán. ¿Le gustaría continuar?	Alle Daten, die zuvor in diesem Konto gespeichert waren, werden überschrieben. Willst du fortfahren?	ข้อมูลใด ๆ ที่จัดเก็บไว้ในบัญชีนี้ก่อนหน้านี้จะถูกบันทุกทับ คุณต้องการดำเนินการต่อหรือไม่?	Semua data yang sebelumnya disimpan dalam akun ini akan ditimpa. Apakah Anda ingin melanjutkan?	Mọi dữ liệu được lưu trữ trước đó trong tài khoản này sẽ bị ghi đè. Bạn có muốn tiếp tục không?	Os dados armazenados antes nesta conta serão substituídos. Deseja continuar?
+												
+npc3.menu.1	데크 설계도 구매	Buy deck blueprint	デッキ設計図購入	Купить чертеж настила	Acheter le plan du pont	購買甲板設計圖	Comprar plano de plataforma	Deckvorlage kaufen	ซื้อพิมพ์เขียวดาดฟ้า	Beli blueprint dek	Mua bản thiết kế sàn gỗ	Comprar diagrama de plataforma
+npc3.menu.2	광고 보고 데크 받기	View ads to get a deck	広告を見てデッキを入手	Посмотрите рекламу, чтобы получить настил	Voir une annonce pour recevoir le pont	看廣告收到甲板	Ver anuncios para obtener plataforma	Anzeigen ansehen, um ein Deck zu bekommen	ดูโฆษณาเพื่อรับดาดฟ้า	Lihat iklan untuk mendapatkan sebuah dek	Xem quảng cáo để nhận sàn gỗ	Ver anúncios e obter uma plataforma
+ads.loading.failed	광고를 못 불러 왔다옹 ㅠㅠ	Sorry, failed to load ad T.T *Meow*	広告を読み込めないにゃん（涙）	Извините, не удалось загрузить рекламу.	Échec du chargement de l'annonce.	抱歉，廣告加載失敗呦 嗚嗚	Lo sentimos, el anuncio no se pudo cargar.	Sorry, die Anzeige konnte nicht geladen werden.	ขออภัย ไม่สามารถโหลดโฆษณา	Maaf, iklan gagal dimuat.	Xin lỗi, không tải được quảng cáo.	Desculpe, não foi possível carregar o anúncio T.T *Miau*
+												
+alert.forbidden.forest	금지된 숲	Forbidden Forest	禁じられた森	Запрещенный Лес	Forêt interdite	被禁止的森林	Bosque prohibido	Verbotener Wald	ป่าต้องห้าม	Hutan Terlarang	Rừng Cấm	Floresta Proibida'
+alert.king.rest	왕의 안식을 방해하는 자는 죽음의 날개에 닿으리라.	The wings of death await those who disturb the King's rest	王の安息を妨げる者は死の翼に触れるであろう。	Те, кто потревожат королевский сон, полетят на крыльях смерти.	Ceux qui dérangent la paix du roi seront ramenés devant les ailes de la mort.	妨害國王安息的的人必觸碰到死亡的翅膀。	Aquellos que perturben el descanso del rey llegarán a las alas de la muerte.	Die Schwingen des Todes warten auf diejenigen, die die Ruhe des Königs stören	ผู้ที่รบกวนการพักผ่อนของกษัตริย์จะพบกับปีกแห่งความตาย	Sayap kematian menunggu mereka yang mengganggu istirahat Sang Raja	Đôi cánh của thần chết đang chờ đợi những kẻ quấy rầy sự yên nghỉ của Nhà vua	As asas da morte anseiam por aqueles que perturbarem o repouso do Rei'
+move.artifact.message	재료 상자의 유물을 유물 소켓으로 옮깁니다.	Moves the artifact from the material chest to the artifact socket.	材料箱の遺物を遺物ソケットに移動します。	Артефакт из коробки материалов будет перемещен в ячейку артефактов.	L’artefact du coffre de matériels sera placé sur la fente d’artefact.	將素材盒中的遺物移到遺物裝備格。	La reliquia de la caja de material se moverá a la ranura de reliquia.	Das Artefakt aus der Materialkiste wird in den Artefaktsockel verschoben.	สิ่งประดิษฐ์จากกล่องวัสดุจะถูกย้ายไปยังช่องเก็บสิ่งประดิษฐ์	Artefak dari kotak material akan dipindahkan ke soket artefak.	Hiện vật từ hộp vật liệu sẽ được chuyển đến nơi cắm hiện vật.	Move o artefato do baú de material para o soquete de artefato.
+potion.desc	체력이 50%이하가 되면 자동으로 사용됩니다. 회복량 전체 체력의 {0}%	Potions are automatically used when your HP is below 50%. Recovers {0}% of health.	体力が50％以下になると自動的に使用されます。 回復量は全体力の{0}％	Зелье автоматически используется, когда ваши ОЗ ниже 50%. Восстанавливает {0}% здоровья.	Utilisation automatique si PV est inférieur à 50%. Récupération de {0}% de PV total.	當體力低於50%時自動使用。恢復總體力的{0}%	Las pociones se usan automáticamente cuando tu HP está por debajo del 50%. Se recupera el {0}% del HP total.	Tränke werden automatisch verwendet, wenn deine HP unter 50% liegen. Stellt {0}% der Gesundheit wieder her.	น้ำยาจะถูกใช้โดยอัตโนมัติเมื่อ HP ของคุณต่ำกว่า 50% ฟื้นฟู {0}% ของพลังชีวิต	Ramuan otomatis digunakan saat HP kamu di bawah 50%. Memulihkan {0}% kesehatan.	Thuốc tự động được sử dụng khi HP của bạn dưới 50%. Phục hồi {0}% máu.	As poções são usadas automaticamente quando seu PV está abaixo de 50%. Recupera {0}% de saúde.
+additional.artifact.slot.desc	유물 소켓의 추가 2개 소켓을 추가로 사용한다.	Uses 2 extra slots of the artifact socket.	遺物ソケットの追加ソケットを2つ使用します。	Использует 2 дополнительных слота ячеек артефактов.	Utilisez 2 fentes supplémentaires pour la prise d'artefact.	追加使用2個遺物裝備格。	Utiliza 2 ranuras adicionales de la ranura de reliquia.	Beansprucht 2 zusätzliche Slots des Artefaktsockels.	ใช้ช่องเพิ่มเติม 2 ช่องของช่องเก็บสิ่งประดิษฐ์	Gunakan 2 slot tambahan dari soket artefak.	Sử dụng 2 vị trí bổ sung trong chỗ đặt hiện vật.	Usa 2 espaços extras do soquete de artefato.
+alert.arcade	한번 만난 적과 가상 전투를 할수 있어요!	You can have a virtual battle with an enemy you've met before!	一度会った敵とバーチャルバトルができるよ！	Вы можете провести виртуальный бой со встреченными ранее врагами!	Vous pouvez faire un combat virtuel avec un ennemi déjà rencontré !	可以和之前遇過的敵人進行模擬戰鬥！	¡Puedes tener una batalla virtual con un enemigo que hayas conocido antes!	Du kannst einen virtuellen Kampf mit einem Gegner austragen, dem du schon einmal begegnet bist!	คุณสามารถมีการต่อสู้เสมือนจริงกับศัตรูที่คุณเคยพบมาก่อน!	Anda dapat melakukan pertempuran virtual dengan musuh yang pernah Anda temui sebelumnya!	Bạn có thể chiến đấu ảo với kẻ thù mà bạn đã gặp trước đây!	Você pode ter uma batalha virtual com um inimigo que você encontrou antes!
+												
+review.1	게임을 즐겨주셔서 감사합니다!	Thanks for enjoying the game!	ゲームを楽しんで頂きありがとうございます！	Спасибо за то, что играете!	Merci d’avoir joué notre jeu !	感謝您的遊玩！	¡Gracias por disfrutar del juego!	Danke, dass dir das Spiel gefällt!	ขอบคุณที่สนุกกับเกม!	Terima kasih telah menikmati permainan!	Cảm ơn vì đã yêu thích trò chơi!	Agradecemos por jogar!
+review.2	리뷰가 큰 도움이 됩니다!	Your review means the world to us devs! :D 	レビューは大きな力になります！	Ваши отзывы очень нам помогут!	Votre avis nous intéresse !	您的評論會將可以幫助到我們！	¡Tus reseñas son de gran ayuda para nosotros!	Deine Bewertungen sind eine große Hilfe für uns!	ความเห็นของคุณช่วยเราได้มาก!	Ulasan Anda sangat membantu kami!	Đánh giá của bạn rất hữu ích cho chúng tôi!	Sua avaliação vale ouro para nós, os desenvolvedores! :D
+												
+game.mode	모드	Mode	モード	Режим	Mode	模式	Modo	Modus	โหมด	Mode	Chế độ	Modo
+game.mode.Normal	노말	Normal	ノーマル	Нормальный	Normale	普通模式	Normal	Normal	ปกติ	Normal	Bình thường	Normal
+game.mode.Hard	하드	Hard	ハード	Тяжелый	Difficile	困難模式	Difícil	Schwer	ยาก	Sulit	Khó	Difícil
+game.mode.Easy	이지	Easy	イージー	Легкий	Facile	容易	Fácil	Einfach	ง่าย	Mudah	Dễ	Fácil
+select.game.mode	새 게임의 난이도를 선택해 주세요.	Please select a difficulty for the new game.	新しいゲームの難易度を選択してください。	Пожалуйста, выберите уровень сложности для новой игры.	Veuillez sélectionner à nouveau la difficulté du jeu.	請選擇新遊戲的難易度。	Selecciona la dificultad para el nuevo juego.	Bitte wähle einen Schwierigkeitsgrad für das neue Spiel.	โปรดเลือกความยากของเกมใหม่	Silakan pilih tingkat kesulitan untuk game baru.	Vui lòng chọn một độ khó cho trò chơi mới.	Selecione uma dificuldade para o novo jogo.
+												
+applicaiton.quit	게임을 종료하시겠습니까?	Are you sure you want to close the game?	ゲームを終了しますか？	Вы уверены, что хотите закрыть игру?	Souhaitez-vous de quitter le jeu ?	是否確定要離開遊戲？	¿Seguro que quieres cerrar el juego?	Bist du sicher, dass du das Spiel schließen willst?	คุณแน่ใจหรือไม่ว่าต้องการปิดเกม?	Apakah Anda yakin ingin menutup game?	Bạn có chắc chắn muốn đóng trò chơi không?	Tem certeza de que deseja fechar o jogo?
+boss4.gate.lock	흠.. 칼에게 물어봐야겠다옹.	Hmm... I'll have to ask Carl.	うーん.. カールに聞いてみるにゃん。	Хмм... Мне нужно спросить у Карла.	Hmm.. Je vais demander à Carl.	嗯，得問問了卡爾呦	A ver... tendré que preguntarle a Carl.	Hmm... Ich werde Carl fragen müssen.	อืม... ฉันจะต้องไปถามคาร์ล	Hmm... Aku harus bertanya pada Carl.	Hừm ... Tôi sẽ phải hỏi Carl.	Humm... Tenho que perguntar ao Carlos.
+exit.dungeon	비상탈출시 얻은 자원을 모두 잃고 마을로 돌아갑니다. 	You will lose all resources obtained and return to the village.	緊急脱出時に入手した資源をすべて失い、町に戻ります。	В случае экстренного побега вы потеряете все добытые ресурсы и вернетесь в деревню.	Si vous utilisez l’évacuation d’urgence, vous perdez toutes les ressources gagnées et vous retournez au village.	離線時你將失去所獲得的所有資源，並返回村莊。	Perderás todos los recursos obtenidos y volverás a la aldea.	Du verlierst alle erhaltenen Ressourcen und kehrst ins Dorf zurück.	คุณจะสูญเสียทรัพยากรทั้งหมดที่ได้รับและกลับสู่หมู่บ้าน	Anda akan kehilangan semua sumber daya yang diperoleh dan kembali ke desa.	Bạn sẽ mất tất cả tài nguyên thu được và trở về làng.	Você vai perder todos os recursos obtidos e voltar para a vila.
+hp.bonus.desc	죽어도 다시 한번 살아납니다. 이때 체력의 {0}%가 회복됩니다.	When you die, you come back to life with {0}% HP	死亡した場合、生き返ります。 この時、体力の{0}％が回復します。	Когда ты умираешь, ты возвращаешься к жизни. В это время восстанавливается {0}% HP.	Quand tu meurs, tu reviens à la vie. À ce stade, {0} % des HP sont récupérés.	當你死了，你會復活。 此時，恢復了 {0}% 的 HP。	Cuando mueres vuelves a la vida. En ese momento, se recupera el {0}% de HP.	Wenn du stirbst, kommst du mit {0}% HP zurück ins Leben	เมื่อคุณตาย คุณจะฟื้นคืนชีพด้วย {0}% HP	Saat Anda mati, Anda hidup kembali dengan {0}% HP	Khi bạn chết, bạn sẽ sống lại với {0}% HP	Quando morre, você revive com {0}% de PV
+common.terms	이용 약관	Terms of Service	利用規約									Termos de Serviço
+menu.account.deletion	계정 삭제	Delete Account	アカウント削除	Удаление учетной записи	Suppression de compte	帳戶刪除	Eliminación de cuenta	Kontolöschung	การลบบัญชี	Penghapusan Akun	Xóa tài khoản	Apagar Conta
+menu.account.deletion.message	구매 기록을 비롯한 모든 데이터가 삭제됩니다. 계속 진행하시겠습니까?	All data including purchase history will be deleted. Do you want to proceed?	購入履歴を含むすべてのデータが削除されます。 続行しますか？	Все данные, включая историю покупок, будут удалены. Вы хотите продолжить?	Toutes les données, y compris l'historique des achats, seront supprimées. Voulez-vous poursuivre?	包括購買歷史在內的所有數據都將被刪除。 你想繼續嗎？	Se eliminarán todos los datos, incluido el historial de compras. Quieres proceder?	Alle Daten einschließlich der Kaufhistorie werden gelöscht. Willst du fortfahren?	ข้อมูลทั้งหมดรวมถึงประวัติการซื้อจะถูกลบ คุณต้องการดำเนินการต่อหรือไม่	Semua data termasuk riwayat pembelian akan dihapus. Apakah Anda ingin melanjutkan?	Tất cả dữ liệu bao gồm cả lịch sử mua hàng sẽ bị xóa. Bạn có muốn tiếp tục?	Todos os dados, incluindo o histórico de compras, serão excluídos. Deseja continuar?
+npc103.menu.1	광고 제거	Remove Ads	広告除去		Supprimer les pubs	去除廣告	Quitar Anuncios	Anzeigen entfernen	ลบโฆษณา	Hapus Iklan	Loại bỏ Q.Cáo	Remover Anúncios
+common.evo	각성	Evolve	覚醒		Évoluer	覺醒	Evolucionar	Entwickeln	วิวัฒน์	Evolusi	Tiến hóa	Evoluir
+common.party.card	기억 카드	Memory Card	記憶カード		Carte mémoire	記憶卡	Tarjeta de memoria	Speicherkarte	เมโมรี่การ์ด	Kartu Memori	Thẻ Ký ức	Cartão de Memória
+common.party.card.hero	{0}의 기억 카드	{0}'s Memory Card	{0}の記憶カード		Carte mémoire de {0}	{0}的記憶卡	Tarjeta de memoria de {0}	{0}s Speicherkarte	การ์ดความทรงจำของ {0}	Kartu Memori {0}	Thẻ Ký ức của {0}	Cartão de Memória do(a) {0}
+common.news	뉴스	News	ニュース		Infos	消息	Noticias	Nachrichten	ข่าว	Kabar	Tin tức	Novidades
+common.goods	굿즈	Goods	グッズ		Objets	周邊	Bienes	Waren	สินค้า	Barang	Hàng hóa	Pertences
+												
+												
+common.statistics	통계	Statistics	統計	Статистика	Statistiques	統計數據	Estadísticas	Statistiken	สถิติ	Statistik	Số liệu thống kê	Estatísticas
+world.story	스토리 모드	Story Mode										
+world.party	파티 모드	Party Mode										
