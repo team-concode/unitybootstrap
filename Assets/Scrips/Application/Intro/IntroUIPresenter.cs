@@ -72,7 +72,7 @@ public class IntroUIPresenter : UIPresenterBase {
             scene = SceneType.Title;
         }
 
-        //SwitchScene(scene, loading).RunAsync();
+        SwitchScene(scene, loading).RunAsync();
     }
 
     private void RefreshScreen() {
