@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class TextLocale : MonoBehaviour {
     [SerializeField] private string key;
 
-    private static HashSet<TextLocale> textLocales = new HashSet<TextLocale>();
+    private static HashSet<TextLocale> all = new();
     private StringBundleService sb => UnityBean.BeanContainer.GetBean<StringBundleService>();
 
     private void Awake() {
@@ -16,19 +16,20 @@ public class TextLocale : MonoBehaviour {
         if (sb.isReady) {
             Refresh();
         }
-        textLocales.Add(this);
+
+        all.Add(this);
     }
 
     private void OnDestroy() {
-        textLocales.Remove(this);
+        all.Remove(this);
     }
 
-    public void Refresh() {
+    private void Refresh() {
         GetComponent<Text>().text = sb.Get(key);
     }
 
     public static void RefreshAll() {
-        foreach (var item in textLocales) {
+        foreach (var item in all) {
             item.Refresh();
         }
     }
