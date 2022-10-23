@@ -78,7 +78,7 @@ TextureImporter:
       213: -5319440969381119117
     second: Panel_24
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -95,11 +95,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -138,9 +139,23 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -374,7 +389,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 4, y: 4, z: 4, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -395,7 +410,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 4, y: 4, z: 4, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -416,7 +431,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 4, y: 4, z: 4, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -437,7 +452,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 4, y: 4, z: 4, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -458,7 +473,7 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 4, y: 4, z: 4, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -690,34 +705,33 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Panel_22: 2990981879221443544
-      Panel_7: 2563568584272758440
-      Panel_9: -6134325538492735651
-      Panel_13: 2788755452485630283
-      Panel_18: 4627965792242518663
-      Panel_21: 2581770505050262902
-      Panel_2: -8823056757382171243
-      Panel_10: -5290988831957111577
-      Panel_11: -4976786180587994623
-      Panel_23: 8221603214270471670
       Panel_19: -4115385810374791647
-      Panel_24: -5319440969381119117
-      Panel_4: 6009285187920744075
-      Panel_17: -7017070227257075559
-      Panel_6: 6411489385799608284
-      Panel_8: 374194155992635891
-      Panel_20: -3281031451759574180
-      Panel_14: -8163289974349227199
-      Panel_3: 8172746116404924314
       Panel_16: -6455803284305322066
-      Panel_12: -527877999939118525
+      Panel_21: 2581770505050262902
+      Panel_24: -5319440969381119117
+      Panel_2: -8823056757382171243
+      Panel_7: 2563568584272758440
       Panel_1: -3732398871244758080
       Panel_0: -1198477067713850731
       Panel_5: 8513699681585032156
+      Panel_20: -3281031451759574180
+      Panel_11: -4976786180587994623
+      Panel_9: -6134325538492735651
+      Panel_10: -5290988831957111577
+      Panel_13: 2788755452485630283
+      Panel_17: -7017070227257075559
+      Panel_23: 8221603214270471670
+      Panel_14: -8163289974349227199
+      Panel_4: 6009285187920744075
       Panel_15: 4589558674783727899
-  spritePackingTag: 
+      Panel_6: 6411489385799608284
+      Panel_8: 374194155992635891
+      Panel_22: 2990981879221443544
+      Panel_3: 8172746116404924314
+      Panel_12: -527877999939118525
+      Panel_18: 4627965792242518663
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

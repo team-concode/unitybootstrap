@@ -195,7 +195,7 @@ TextureImporter:
       213: -1453176794412677239
     second: Buttons_63
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -212,11 +212,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -255,9 +256,23 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1626,73 +1641,72 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Buttons_46: 4733705104311180181
-      Buttons_31: 1047301695530781787
-      Buttons_50: -1016210779250914659
-      Buttons_25: -3052080053349701864
-      Buttons_47: 1288754705328132782
-      Buttons_30: -9050932391531157495
-      Buttons_16: -8297432600200059137
-      Buttons_17: 6581902851085628065
       Buttons_4: 3760674464881954987
+      Buttons_32: 1915290527967144290
+      Buttons_58: 7652840487390067569
+      Buttons_44: -3820472542064340271
       Buttons_7: -3243065930256096816
+      Buttons_54: 4999774379197099405
+      Buttons_0: 8894201953851282084
+      Buttons_46: 4733705104311180181
       Buttons_37: -866321646712631153
       Buttons_21: 7671842712487638309
+      Buttons_31: 1047301695530781787
       Buttons_42: -7092124137594000085
-      Buttons_22: 6994526540242742011
-      Buttons_20: 6246160581572741293
-      Buttons_15: 2002449761939175838
-      Buttons_49: 2007788374825723147
-      Buttons_53: -5431906431308654155
-      Buttons_58: 7652840487390067569
-      Buttons_19: 1037043418157672090
-      Buttons_44: -3820472542064340271
       Buttons_57: -2130869313331687111
-      Buttons_24: -2696679226240509379
-      Buttons_52: 3477378949051330729
-      Buttons_35: -6841484750438976343
-      Buttons_43: -8912243214971627072
-      Buttons_55: 3579470775947294210
       Buttons_59: 3819324934883787392
-      Buttons_14: -8085034249037642075
-      Buttons_60: -4944136945054117301
-      Buttons_63: -1453176794412677239
-      Buttons_27: 7984984840960080801
-      Buttons_1: 7664807735657788756
-      Buttons_26: -7656262186137238201
-      Buttons_33: -4872069969497433021
-      Buttons_8: -5316896731886317114
-      Buttons_9: 7219830438018454713
-      Buttons_28: -5136593338597967034
-      Buttons_41: 3646132450286159362
-      Buttons_11: 4520375771122408675
-      Buttons_54: 4999774379197099405
-      Buttons_18: 5873922061639052055
-      Buttons_3: 2013261503205373015
-      Buttons_10: 3100856887975758742
-      Buttons_2: -5402412272178277761
-      Buttons_38: 3193435864366877344
       Buttons_39: -5474196174885144636
-      Buttons_61: -6557233753591553216
-      Buttons_6: -7814535901586335685
-      Buttons_36: 2782262086012849936
-      Buttons_0: 8894201953851282084
-      Buttons_32: 1915290527967144290
-      Buttons_48: -1958298963659097362
-      Buttons_12: -5179577679047867133
-      Buttons_5: -7811504096720598664
+      Buttons_24: -2696679226240509379
+      Buttons_50: -1016210779250914659
+      Buttons_18: 5873922061639052055
       Buttons_34: 6798193603510917444
-      Buttons_40: 516737320882494647
-      Buttons_56: 2446052739750112859
-      Buttons_13: -3910703144431735636
+      Buttons_27: 7984984840960080801
       Buttons_62: -7792399705120831029
+      Buttons_22: 6994526540242742011
+      Buttons_1: 7664807735657788756
+      Buttons_56: 2446052739750112859
+      Buttons_52: 3477378949051330729
+      Buttons_26: -7656262186137238201
+      Buttons_40: 516737320882494647
+      Buttons_20: 6246160581572741293
+      Buttons_25: -3052080053349701864
+      Buttons_15: 2002449761939175838
+      Buttons_13: -3910703144431735636
+      Buttons_33: -4872069969497433021
+      Buttons_48: -1958298963659097362
+      Buttons_49: 2007788374825723147
+      Buttons_47: 1288754705328132782
+      Buttons_35: -6841484750438976343
+      Buttons_53: -5431906431308654155
+      Buttons_61: -6557233753591553216
       Buttons_29: -6149274306991719799
+      Buttons_8: -5316896731886317114
       Buttons_51: -4567327895411285684
+      Buttons_12: -5179577679047867133
+      Buttons_3: 2013261503205373015
+      Buttons_55: 3579470775947294210
+      Buttons_43: -8912243214971627072
+      Buttons_9: 7219830438018454713
+      Buttons_63: -1453176794412677239
+      Buttons_30: -9050932391531157495
+      Buttons_6: -7814535901586335685
       Buttons_23: -6134105900329393699
+      Buttons_28: -5136593338597967034
+      Buttons_36: 2782262086012849936
+      Buttons_16: -8297432600200059137
+      Buttons_11: 4520375771122408675
+      Buttons_10: 3100856887975758742
       Buttons_45: 8772151127242768997
-  spritePackingTag: 
+      Buttons_14: -8085034249037642075
+      Buttons_17: 6581902851085628065
+      Buttons_2: -5402412272178277761
+      Buttons_41: 3646132450286159362
+      Buttons_5: -7811504096720598664
+      Buttons_38: 3193435864366877344
+      Buttons_60: -4944136945054117301
+      Buttons_19: 1037043418157672090
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

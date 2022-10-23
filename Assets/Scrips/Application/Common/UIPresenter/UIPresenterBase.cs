@@ -24,7 +24,7 @@ public abstract class UIPresenterBase : MonoBehaviour, UIPresenter {
     public event AlertEvent onCommonAlertEnd;
 
     private static SceneType returnScene = SceneType.Intro;
-    private static Stack<SceneType> sceneHistory = new Stack<SceneType>();
+    private static readonly Stack<SceneType> sceneHistory = new();
 
     private CommonToastMessage lastToastMessage;
     private int waitingPanelRefCount;
@@ -141,38 +141,29 @@ public abstract class UIPresenterBase : MonoBehaviour, UIPresenter {
         blackPanelMap.Remove(ob);
     }    
 
-    public IEnumerator ShowAlert(string message, AlertBoxType type, AlertBoxOutResult result) {
+    public async Task<AlertBoxResult> ShowAlert(string message, AlertBoxType type) {
+        var res = AlertBoxResult.None;
         while (currentCommonAlert != null) {
-            yield return new WaitForSeconds(0.1f);
+            await new WaitForSecondsRealtime(0.1f);
         }
 
         if (App.mainUI == null) {
-            result.value = AlertBoxResult.None;
-            yield break;
+            return res;
         }
 
         if (!Application.isPlaying) {
-            yield break;
+            return res;
         }
 
-        var commonAlert = this.InstantiateUI<CommonAlertBox>("Common/AlertBox", pushLayer);
-        commonAlert.transform.localScale = Vector3.one;
-        if (commonAlert != null) {
-            onCommonAlertStart?.Invoke();
-            yield return commonAlert.Show(message, type, result);
-            onCommonAlertEnd?.Invoke();
+        var commonAlert = goPooler.Get<CommonAlertBox>("Prefabs/UI/Common/AlertBox", alertLayer);
+        if (commonAlert == null) {
+            return res;
         }
-    }
-
-    public IEnumerator ShowAlertKey(string key, AlertBoxType type, AlertBoxOutResult result) {
-        string message = sb.Get(key);
-        yield return ShowAlert(message, type, result);
-    }
-
-    public async Task<AlertBoxResult> ShowAlert(string message, AlertBoxType type) {
-        var result = new AlertBoxOutResult();
-        await ShowAlert(message, type, result);
-        return result.value;
+        
+        onCommonAlertStart?.Invoke();
+        res = await commonAlert.Display(message, type);
+        onCommonAlertEnd?.Invoke();
+        return res;
     }
 
     public async Task<AlertBoxResult> ShowAlertKey(string key, AlertBoxType type) {

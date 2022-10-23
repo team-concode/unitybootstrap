@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityBean;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -22,10 +23,7 @@ public enum AlertBoxResult {
     Shop,
 }
 
-public class AlertBoxOutResult : OutResult<AlertBoxResult> {
-}
-
-public class CommonAlertBox : MonoBehaviour, BlackPanelObserver {
+public class CommonAlertBox : GoItem, BlackPanelObserver {
     [SerializeField] private Text textLabel;
     [SerializeField] private Transform bottom;
     [LazyWired] private SoundService soundService;
@@ -33,7 +31,7 @@ public class CommonAlertBox : MonoBehaviour, BlackPanelObserver {
     private AlertBoxResult result = AlertBoxResult.None;
     private CanvasGroup panel;
     private RectTransform rectTransform;
-    private Dictionary<AlertBoxType, Transform> footers = new();
+    private readonly Dictionary<AlertBoxType, Transform> footers = new();
     private AlertBoxType type;
 
     private void Awake() {
@@ -42,44 +40,43 @@ public class CommonAlertBox : MonoBehaviour, BlackPanelObserver {
         rectTransform = GetComponent<RectTransform>();
 
         foreach (Transform child in bottom) {
-            var type = EnumUtil.To<AlertBoxType>(child.name);
-            footers.Add(type, child);
+            footers.Add(EnumUtil.To<AlertBoxType>(child.name), child);
         }
     }
 
-    private void OnDestroy() {
+    public override void OnGoingIntoPool() {
         if (App.mainUI != null) {
             App.mainUI.currentCommonAlert = null;
         }
     }
 
     public void OnClickOk() {
-        soundService.PlayFx("click");
+        soundService.PlayFx("Fx/click");
         result = AlertBoxResult.Ok;
     }
 
     public void OnClickCancel() {
-        soundService.PlayFx("click");
+        soundService.PlayFx("Fx/click");
         result = AlertBoxResult.Cancel;
     }
 
     public void OnClickYes() {
-        soundService.PlayFx("click");
+        soundService.PlayFx("Fx/click");
         result = AlertBoxResult.Yes;
     }
 
     public void OnClickNo() {
-        soundService.PlayFx("click");
+        soundService.PlayFx("Fx/click");
         result = AlertBoxResult.No;
     }
 
     public void OnClickRetry() {
-        soundService.PlayFx("click");
+        soundService.PlayFx("Fx/click");
         result = AlertBoxResult.Ok;
     }
 
     public void OnClickUpdate() {
-        soundService.PlayFx("click");
+        soundService.PlayFx("Fx/click");
         Application.OpenURL(App.config.GetDownloadUrl());
         result = AlertBoxResult.Cancel;
     }
@@ -96,7 +93,7 @@ public class CommonAlertBox : MonoBehaviour, BlackPanelObserver {
         rectTransform.sizeDelta = sizeDelta;
     }
 
-    public IEnumerator Show(string message, AlertBoxType type, AlertBoxOutResult outResult) {
+    public async Task<AlertBoxResult> Display(string message, AlertBoxType type) {
         this.gameObject.SetActive(true);
         this.type = type;
         App.mainUI.currentCommonAlert = this;
@@ -117,27 +114,22 @@ public class CommonAlertBox : MonoBehaviour, BlackPanelObserver {
         FitSize();
         panel.alpha = 0;
         panel.transform.localScale = Vector3.one * 0.95f;
-        yield return null;
+        await new WaitForEndOfFrame();
         App.mainUI.ShowBlackPanel(this);
-        StartCoroutine(panel.AlphaTo(EaseType.easeOutQuad, 0.1f, 1f, () => {}, false));
-        yield return panel.gameObject.ScaleTo(EaseType.easeOutQuad, 0.2f, Vector3.one, false);
+        StartCoroutine(panel.AlphaTo(EaseType.easeOutQuad, 0.1f, 1f));
+        await panel.gameObject.ScaleTo(EaseType.easeOutQuad, 0.2f, Vector3.one, false);
         
         while (this.result == AlertBoxResult.None) {
-            yield return null;
+            await new WaitForEndOfFrame();
         }
 
-        if (outResult != null) {
-            outResult.value = this.result;
-        }
-
-        yield return panel.gameObject.ScaleTo(EaseType.easeInQuad, 0.1f, Vector3.one * 0.95f, false);
+        await panel.gameObject.ScaleTo(EaseType.easeInQuad, 0.1f, Vector3.one * 0.95f, false);
         App.mainUI.currentCommonAlert = null;
         EventSystem.current.SetSelectedGameObject(null);
-        Destroy(this.gameObject);
+        this.pool.Return(this);
+        return this.result;
     }
 
-    // BlackPanelObserver interface implementation
-    //-------------------------------------------------------------------------
     public void OnClickBlackPanel() {
         if (this.type == AlertBoxType.YesNo) {
             return;

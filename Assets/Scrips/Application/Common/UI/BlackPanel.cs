@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using UnityBean;
 using UnityEngine.UI;
 
 public interface BlackPanelObserver {
@@ -18,14 +17,11 @@ public class BlackPanel : GoItem {
     private Coroutine alphaRoutine;
     private BlackPanelObserver observer;
     private GraphicRaycaster raycaster;
-    private readonly Bec checker = new Bec();
-
-    [LazyWired] private GoPooler goPooler;
+    private readonly Bec checker = new();
 
     private void Awake() {
         cg = GetComponent<CanvasGroup>();
         raycaster = GetComponent<GraphicRaycaster>();
-        BeanContainer.LazyDI(this);
     }
 
     public void Display(BlackPanelObserver ob) {
@@ -71,7 +67,7 @@ public class BlackPanel : GoItem {
     private IEnumerator HideRoutine() {
         yield return cg.AlphaTo(EaseType.easeInOutQuad, 0.15f, 0f);
         alphaRoutine = null;
-        goPooler.Return(this);
+        this.pool.Return(this);
     }
 
     private void UpdatePosition(BlackPanelObserver ob) {

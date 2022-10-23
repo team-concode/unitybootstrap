@@ -40,7 +40,7 @@ public static class GameObjectExtensions {
     }
     
     public static UnityWebRequest Post(this MonoBehaviour v, string url, string body) {
-        var www = UnityWebRequest.Post(url, "");
+        var www = UnityWebRequest.PostWwwForm(url, "");
         www.timeout = 10;
         www.SetRequestHeader("Content-Type", "application/json");
         www.uploadHandler = new UploadHandlerRaw(Encoding.UTF8.GetBytes(body));

@@ -119,10 +119,9 @@ public class IntroUIPresenter : UIPresenterBase {
     }
 
     private async void AlertContainerFailed(string bean) {
-        var res = new AlertBoxOutResult();
         var key = "intro." + bean + ".failed";
-        await App.mainUI.ShowAlertKey(key, AlertBoxType.Retry, res);
-        if (res.value == AlertBoxResult.Ok) {
+        var res = await App.mainUI.ShowAlertKey(key, AlertBoxType.Retry);
+        if (res == AlertBoxResult.Ok) {
             SceneManager.LoadScene(0);
         }
     }

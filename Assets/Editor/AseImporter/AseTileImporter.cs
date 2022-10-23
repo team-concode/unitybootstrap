@@ -45,7 +45,7 @@ namespace AsepriteImporter {
             }
         }
 
-        private void BuildAtlas(string acePath) {
+        private async void BuildAtlas(string acePath) {
             fileName= Path.GetFileNameWithoutExtension(acePath);
             var directoryName = Path.GetDirectoryName(acePath) + "/" + fileName;
             if (!AssetDatabase.IsValidFolder(directoryName)) {

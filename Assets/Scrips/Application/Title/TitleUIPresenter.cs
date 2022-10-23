@@ -32,4 +32,8 @@ public class TitleUIPresenter : UIPresenterBase {
             await SwitchScene(SceneType.World);
         }
     }
+
+    public async void OnClickHello() {
+        await ShowAlert("Hello", AlertBoxType.Ok);
+    }
 }

@@ -79,7 +79,7 @@ namespace UnityBean {
             beanMap = new Dictionary<string, object>();
             foreach (var bean in allBeans.Keys) {
                 if (bean.instance == null) {
-                    log.error("null instance: " + bean.name);
+                    Debug.LogError("null instance: " + bean.name);
                 }
 
                 beanMap.Add(bean.name, bean.instance);
@@ -188,7 +188,7 @@ namespace UnityBean {
             try {
                 return t.GetConstructor(new Type[] { })?.Invoke(new object[] { });
             } catch (Exception e) {
-                log.error(e);
+                Debug.LogError(e);
                 return null;
             }
         }

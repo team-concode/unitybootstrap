@@ -46,10 +46,6 @@ public interface UIPresenter {
     void ShowBlackPanel(BlackPanelObserver ob);
     void HideBlackPanel(BlackPanelObserver ob);
    
-    // deprecated
-    IEnumerator ShowAlert(string message, AlertBoxType type, AlertBoxOutResult result);
-    IEnumerator ShowAlertKey(string key, AlertBoxType type, AlertBoxOutResult result);
-    
     Task<AlertBoxResult> ShowAlert(string message, AlertBoxType type);
     Task<AlertBoxResult> ShowAlertKey(string key, AlertBoxType type);
     void ShowToastAlert(string text);

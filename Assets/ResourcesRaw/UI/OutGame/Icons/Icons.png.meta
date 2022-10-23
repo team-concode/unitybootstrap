@@ -195,7 +195,7 @@ TextureImporter:
       213: 2381692322217496694
     second: Icons_63
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -212,11 +212,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -255,9 +256,23 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1626,73 +1641,72 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Icons_5: -1863859237976802683
       Icons_14: -1772244045117237821
-      Icons_40: -2157682245520061201
-      Icons_62: -2082710374031993758
-      Icons_39: -1654776687134263141
-      Icons_32: 3718842862631874603
-      Icons_35: 5812809956312101614
+      Icons_5: -1863859237976802683
+      Icons_30: -2592873102402669163
       Icons_43: 1078536559429060484
-      Icons_47: -3970898316476944209
-      Icons_27: -4737426781762327817
-      Icons_10: 3220665290143086019
-      Icons_23: -9205221584584489300
-      Icons_26: -5330826594950682575
-      Icons_18: -7539582390867499684
-      Icons_13: 3052315535316524931
-      Icons_29: -148319563816140896
-      Icons_37: -6876449859285394341
       Icons_42: -7308207070590811785
-      Icons_28: 2486193441875991756
-      Icons_17: 9151725625850188775
-      Icons_19: -3862903190024489479
-      Icons_15: 5681967267464321869
-      Icons_4: 5543941588292853863
-      Icons_6: 7576617242518483205
-      Icons_41: 7478791874471366628
+      Icons_57: 5658616018816720155
       Icons_34: -3397230575767399492
-      Icons_44: -2653506176444920285
-      Icons_2: 184950751378207249
-      Icons_9: -8179040606652740800
-      Icons_53: 3929133199111790865
       Icons_58: -5427488090958776785
-      Icons_0: 1161201145128540330
-      Icons_63: 2381692322217496694
-      Icons_16: -2319476694228375547
-      Icons_49: 6510515419312912815
-      Icons_24: 1341854236672496375
-      Icons_46: -8670852054697128491
-      Icons_38: -5617832314116960257
-      Icons_20: -168777754515822616
-      Icons_52: -7057806690012809336
+      Icons_54: 7196004467878751866
+      Icons_1: 2130535880278150251
+      Icons_47: -3970898316476944209
+      Icons_3: 1202984965197363600
+      Icons_28: 2486193441875991756
+      Icons_44: -2653506176444920285
+      Icons_40: -2157682245520061201
+      Icons_8: -6931339683150358059
       Icons_11: 3434086634727231013
       Icons_59: -7400975103877825773
+      Icons_27: -4737426781762327817
+      Icons_9: -8179040606652740800
+      Icons_24: 1341854236672496375
+      Icons_2: 184950751378207249
+      Icons_10: 3220665290143086019
+      Icons_45: 6136726090811837194
+      Icons_53: 3929133199111790865
+      Icons_50: -505306787334139433
+      Icons_17: 9151725625850188775
+      Icons_19: -3862903190024489479
+      Icons_46: -8670852054697128491
+      Icons_36: -6565013819230968915
+      Icons_23: -9205221584584489300
+      Icons_62: -2082710374031993758
+      Icons_26: -5330826594950682575
+      Icons_12: 2514988542215765323
+      Icons_38: -5617832314116960257
+      Icons_15: 5681967267464321869
       Icons_22: -7058561907366660472
       Icons_25: -7899933087549869777
-      Icons_55: 4321908322816216039
-      Icons_48: 1562533389854618834
-      Icons_31: -4710408157825254453
-      Icons_1: 2130535880278150251
-      Icons_8: -6931339683150358059
-      Icons_45: 6136726090811837194
-      Icons_50: -505306787334139433
-      Icons_12: 2514988542215765323
-      Icons_54: 7196004467878751866
-      Icons_60: -6500817091253424190
-      Icons_30: -2592873102402669163
-      Icons_57: 5658616018816720155
-      Icons_3: 1202984965197363600
-      Icons_36: -6565013819230968915
       Icons_33: -2364435144087426543
       Icons_7: 7374845061861626600
       Icons_21: -8930018218856646630
-      Icons_51: 2594068508085724225
+      Icons_55: 4321908322816216039
       Icons_56: 1470462077960011716
+      Icons_51: 2594068508085724225
+      Icons_39: -1654776687134263141
+      Icons_63: 2381692322217496694
+      Icons_32: 3718842862631874603
+      Icons_0: 1161201145128540330
+      Icons_20: -168777754515822616
+      Icons_4: 5543941588292853863
+      Icons_52: -7057806690012809336
+      Icons_49: 6510515419312912815
+      Icons_6: 7576617242518483205
+      Icons_41: 7478791874471366628
+      Icons_37: -6876449859285394341
+      Icons_48: 1562533389854618834
+      Icons_18: -7539582390867499684
+      Icons_29: -148319563816140896
+      Icons_13: 3052315535316524931
+      Icons_31: -4710408157825254453
+      Icons_35: 5812809956312101614
+      Icons_60: -6500817091253424190
       Icons_61: -7607551139151047526
-  spritePackingTag: 
+      Icons_16: -2319476694228375547
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
