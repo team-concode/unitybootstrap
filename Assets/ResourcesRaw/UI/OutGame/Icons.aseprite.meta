@@ -10,7 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: d1956ce1ff810451f9738b29e9df561a, type: 3}
   settings:
     importType: 1
-    pixelsPerUnit: 16
+    pixelsPerUnit: 20
     spriteAlignment: 0
     spritePivot: {x: 0.5, y: 0.5}
     bindType: 1

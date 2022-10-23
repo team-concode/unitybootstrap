@@ -48,12 +48,8 @@ public interface UIPresenter {
    
     Task<AlertBoxResult> ShowAlert(string message, AlertBoxType type);
     Task<AlertBoxResult> ShowAlertKey(string key, AlertBoxType type);
-    void ShowToastAlert(string text);
-    void ShowToastAlertKey(string key, params object[] values);
-    void ShowPushAlert(string title, string body);
     void ShowWaitingPanel();
     void HideWaitingPanel();
-    GoItemRef<PointingLabel> ShowPointingLabel(string message, float duration, RectTransform target, Vector2 offset, PointingDirection dir);
 
     Task<T> Api<T>(Func<Task<T>> method);
     Task<bool> Api(Func<Task<bool>> method);

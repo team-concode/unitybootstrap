@@ -95,7 +95,10 @@ public class CommonAlertBox : GoItem, BlackPanelObserver {
 
     public async Task<AlertBoxResult> Display(string message, AlertBoxType type) {
         this.gameObject.SetActive(true);
+        this.transform.localPosition = Vector3.zero;
         this.type = type;
+        this.result = AlertBoxResult.None;
+
         App.mainUI.currentCommonAlert = this;
         textLabel.text = message;
         foreach (var footer in footers) {

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public interface BlackPanelObserver {
@@ -108,7 +109,11 @@ public class BlackPanel : GoItem {
     }
 
     private void Update() {
-        if (observer != null && Input.GetKeyDown(KeyCode.Escape)) {
+        if (observer == null) {
+            return;
+        }
+        
+        if (Keyboard.current.escapeKey.wasPressedThisFrame) {
             observer.OnAndroidBack();
         }
     }

@@ -170,34 +170,6 @@ public abstract class UIPresenterBase : MonoBehaviour, UIPresenter {
         string message = sb.Get(key);
         return await ShowAlert(message, type);
     }
-
-    public void ShowPushAlert(string title, string body) {
-        var path = "Prefabs/UI/Common/PushAlert";
-        var alert = goPooler.Get<PushAlert>(path, pushLayer);
-        if (alert!= null) {
-            alert.Display(title, body);
-        }
-    }
-
-    public void ShowToastAlert(string text) {
-        Color bgColor = Color.yellow;
-        Color txtColor = Color.black;
-
-        if (lastToastMessage != null) {
-            lastToastMessage.Hide();
-        }
-
-        var path = "Prefabs/UI/Common/CommonToastAlert";
-        var message = goPooler.Get<CommonToastMessage>(path, alertLayer);
-        if (message != null) {
-            message.Show(text, bgColor, txtColor);
-            lastToastMessage = message;
-        }
-    }
-
-    public void ShowToastAlertKey(string key, params object[] values) {
-        ShowToastAlert(sb.Get(key, values));
-    }
     
     public virtual void ShowWaitingPanel() {
         waitingPanelRefCount++;
@@ -282,18 +254,6 @@ public abstract class UIPresenterBase : MonoBehaviour, UIPresenter {
 
     public Vector2 GetSceneOriginSize() {
         return canvasScaler.GetOriginSize();
-    }
-
-    public GoItemRef<PointingLabel> ShowPointingLabel(string message, float duration, RectTransform target, Vector2 offset, PointingDirection dir) {
-        var path = "Prefabs/UI/Common/PointingLabel";
-        var label = goPooler.Get<PointingLabel>(path, App.mainUI.defaultUI);
-        if (label == null) {
-            Debug.LogError("Can not found label");
-            return null;
-        }
-
-        label.Display(message, duration, target, offset, dir);
-        return new GoItemRef<PointingLabel>(label);
     }
 
     public bool HasPopup() {
