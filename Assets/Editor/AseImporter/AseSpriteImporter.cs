@@ -4,7 +4,6 @@ using System.IO;
 using Aseprite;
 using Aseprite.Chunks;
 using Aseprite.Utils;
-using Newtonsoft.Json;
 using UnityEditor;
 using UnityEditor.Animations;
 using UnityEditor.U2D;
@@ -52,6 +51,7 @@ namespace AsepriteImporter {
             }
 
             if (done) {
+                AssetDatabase.SaveAssets();
                 EditorApplication.update -= OnUpdate;
             }
         }
@@ -68,8 +68,8 @@ namespace AsepriteImporter {
             var atlas = GenerateAtlas(frames);
             try {
                 File.WriteAllBytes(filePath, atlas.EncodeToPNG());
-                AssetDatabase.SaveAssets();
-                AssetDatabase.Refresh();
+                //AssetDatabase.SaveAssets();
+                //AssetDatabase.Refresh();
             } catch (Exception e) {
                 Debug.LogError(e.Message);
             }
@@ -217,8 +217,8 @@ namespace AsepriteImporter {
             var newProperties = AseSpritePostProcess.GetPhysicsShapeProperties(importer, metaList);
 
             AseSpritePostProcess.RecoverPhysicsShapeProperty(newProperties, oldProperties);
-            AssetDatabase.Refresh();
-            AssetDatabase.SaveAssets();
+            //AssetDatabase.Refresh();
+            //AssetDatabase.SaveAssets();
             return true;
         }
 
@@ -298,8 +298,7 @@ namespace AsepriteImporter {
             }
 
             var metadatas = aseFile.GetMetaData(settings.spritePivot, settings.pixelsPerUnit);
-
-            int index = 0;
+            var index = 0;
             foreach (var animation in animations) {
                 var path = directoryName + "/" + fileName + "_" + animation.TagName + ".anim";
                 AnimationClip clip = AssetDatabase.LoadAssetAtPath<AnimationClip>(path);
@@ -329,7 +328,7 @@ namespace AsepriteImporter {
                 }
 
                 // plus last frame to keep the duration
-                int length = animation.FrameTo - animation.FrameFrom + 1;
+                var length = animation.FrameTo - animation.FrameFrom + 1;
                 ObjectReferenceKeyframe[] spriteKeyFrames = new ObjectReferenceKeyframe[length + 1];
                 Dictionary<string, AnimationCurve> transformCurveX = new Dictionary<string, AnimationCurve>(),
                                                    transformCurveY = new Dictionary<string, AnimationCurve>();

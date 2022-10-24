@@ -41,6 +41,7 @@ namespace AsepriteImporter {
             }
 
             if (done) {
+                AssetDatabase.SaveAssets();
                 EditorApplication.update -= OnUpdate;
             }
         }
@@ -57,8 +58,8 @@ namespace AsepriteImporter {
             GenerateAtlas(frames);
             try {
                 File.WriteAllBytes(filePath, atlas.EncodeToPNG());
-                AssetDatabase.SaveAssets();
-                AssetDatabase.Refresh();
+                //AssetDatabase.SaveAssets();
+                //AssetDatabase.Refresh();
             } catch (Exception e) {
                 Debug.LogError(e.Message);
             }
@@ -185,8 +186,8 @@ namespace AsepriteImporter {
             var newProperties = AseSpritePostProcess.GetPhysicsShapeProperties(importer, metaList);
             
             AseSpritePostProcess.RecoverPhysicsShapeProperty(newProperties, oldProperties);
-            AssetDatabase.Refresh();
-            AssetDatabase.SaveAssets();
+            //AssetDatabase.Refresh();
+            //AssetDatabase.SaveAssets();
             return true;
         }
 
