@@ -1,11 +1,18 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-public class TextLocale : MonoBehaviour {
-    [SerializeField] private string key;
+[Serializable]
+public class ImageLocaleData {
+    public string lang;
+    public Sprite sprite;
+}
 
-    private static HashSet<TextLocale> all = new();
+public class ImageLocale : MonoBehaviour {
+    [SerializeField] private List<ImageLocaleData> data;
+    
+    private static HashSet<ImageLocale> all = new();
     private StringBundleService sb => UnityBean.BeanContainer.GetBean<StringBundleService>();
 
     private void Awake() {
@@ -24,7 +31,12 @@ public class TextLocale : MonoBehaviour {
     }
 
     private void Refresh() {
-        GetComponent<Text>().text = sb.Get(key);
+        foreach (var item in data) {
+            if (item.lang == sb.language) {
+                GetComponent<Image>().sprite = item.sprite;
+                break;
+            }
+        }
     }
 
     public static void RefreshAll() {

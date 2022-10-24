@@ -46,7 +46,11 @@ public class IntroUIPresenter : UIPresenterBase {
             return;
         }
 
+        // update text bundle
         BeanContainer.LazyDI(this);
+        TextLocale.RefreshAll();
+        ImageLocale.RefreshAll();
+
         if (!logoDisplayed) {
             await new WaitForSeconds(0.1f);
             logo.CrossFade("Play", 0, -1, 0f);
@@ -56,9 +60,6 @@ public class IntroUIPresenter : UIPresenterBase {
             logoDisplayed = true;
         }
         
-        // update text bundle
-        TextLocale.RefreshAll();
-
         await new WaitForSeconds(0.5f);
         
         App.ready = true;
