@@ -29,6 +29,9 @@ public class Setting {
     public SettingResolution resolution = SettingResolution.Normal;
     public bool bgm = true;
     public bool soundFx = true;
+    public float bgmVol = 1f;
+    public float soundFxVol = 1f;
+
     public bool localNotification = true;
     public bool heroAura = true;
     public bool landscape = false;
